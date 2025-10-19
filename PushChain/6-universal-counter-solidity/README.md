@@ -17,7 +17,7 @@ On this section, we will build the `UniversalCounter.sol` contract, a Push Chain
    - Ethereum Sepolia: `("eip155", "11155111") → countEth++`
 4. Any other chain combination reverts with `"Invalid chain"`.
 
-This behavior is natively supported by Push Chain via the UEA system—no external bridges, oracles, or third‑party messaging are needed.
+This behavior is natively supported by Push Chain via the UEA — no external bridges, oracles, or third‑party messaging are needed.
 
 ## Public interface
 
@@ -29,4 +29,4 @@ This behavior is natively supported by Push Chain via the UEA system—no extern
 
 ## Reference
 
-- For a complete tutorial with a built UI, visit: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/tutorials/tutorial-universal-counter/" target="_blank">Universal Counter App</a>
+- For a complete tutorial with a built UI, visit: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/tutorials/basics/tutorial-universal-counter/" target="_blank">Universal Counter App</a>
