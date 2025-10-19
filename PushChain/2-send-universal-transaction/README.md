@@ -1,4 +1,4 @@
-Learn how to execute Universal Transactions with PushChain. This tutorial guides you through interacting with a smart contract deployed on Push Chain Donut Testnet from any blockchain using the powerful Universal Transaction feature. We'll accomplish this using the PushChain SDK that makes it easy to bridge traditional blockchain silos and interact seamlessly across chains.
+Learn how to execute Universal Transactions with <a href="https://www.npmjs.com/package/@pushchain/core">`@pushchain/core SDK`</a>. This tutorial guides you through interacting with a smart contract deployed on Push Chain Donut Testnet from Ethereum Sepolia using the powerful Universal Transaction feature. We'll accomplish this using the Push Chain SDK that makes it easy to bridge traditional blockchain silos and interact seamlessly across chains.
 
 ## What we will do
 
@@ -9,7 +9,7 @@ Learn how to execute Universal Transactions with PushChain. This tutorial guides
 
 ## Simple Counter Contract
 
-The script interacts with the Simple Counter contract deployed at:
+The script interacts with the Simple Counter contract deployed on Push Chain Donut Testnet at:
 <a href="https://donut.push.network/address/0x5FbDB2315678afecb367f032d93F642f64180aa3?tab=index">`0x5FbDB2315678afecb367f032d93F642f64180aa3`</a>
 
 ## How it works
@@ -48,12 +48,11 @@ const txParams = {
 
 ## Example Transaction
 
-This transaction showcases calling `increment()` on the Simple Counter deployed on Push Chain from a Solana wallet using Phantom, see <a href="https://donut.push.network/tx/0x8fde3a025ce719c33cf9436763016f0e2ebb16563a6be44dc3b48c45a37878c6" target="_blank">donut.push.network for the transaction details</a>.
+This transaction showcases calling `increment()` on the Simple Counter deployed on Push Chain from a Solana wallet using Phantom, see <a href="https://donut.push.network/tx/0x2513bb3aa58c6f6a8d1708b85c7d26d5f3d94c3555d60fa19c2411ce195fdc65" target="_blank">donut.push.network for the transaction details</a>.
 
 ## Important Notes
 
-- **Funding required**: The generated wallet needs PC tokens to execute transactions
-- **Get testnet tokens**: Visit <a href="https://faucet.push.org/" target="_blank">Push Chain Faucet</a> to get PC tokens for testing
+- **Funding required**: The generated Sepolia wallet needs Sepolia ETH to execute the Universal Transaction
 
 ## Universal Transaction Benefits
 
@@ -63,6 +62,6 @@ This transaction showcases calling `increment()` on the Simple Counter deployed 
 
 ## References
 
-- <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/tutorials/tutorial-simple-counter/" target="_blank">Official Simple Counter Tutorial</a>
+- <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/tutorials/basics/tutorial-simple-counter/" target="_blank">Official Simple Counter Tutorial</a>
 - <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/build/send-universal-transaction/" target="_blank">PushChain Documentation - Send Universal Transaction</a>
 - <a href="https://www.npmjs.com/package/@pushchain/core" target="_blank">PushChain Core SDK</a>
