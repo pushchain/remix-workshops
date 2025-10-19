@@ -1,6 +1,6 @@
-An overview of helper functions that demonstrate the PushChain Core SDK utilities for mapping between Origin Accounts (UOA) and Executor Accounts (UEA).
+An overview of helper functions that demonstrate the <a href="https://www.npmjs.com/package/@pushchain/core">`@pushchain/core SDK`</a> utilities for mapping between Origin Accounts (UOA) and Executor Accounts (UEA).
 
-## `ueaFactory.js`
+## `utility-functions.js`
 
 This script now uses high-level SDK utilities instead of calling the on-chain factory directly:
 
