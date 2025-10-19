@@ -11,7 +11,7 @@ In this step, we provide a minimal Solidity contract `UEAFactoryDemo.sol` that d
 ## Notes
 
 - The `UEAFactory` address is the predeployed contract used by Push Chain.
-- If you want to compare with a more feature-rich example, check the <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/tutorials/tutorial-universal-counter/" target="_blank">Universal Counter tutorial</a> which includes a React app with an interface for interacting with the contract.
+- If you want to compare with a more feature-rich example, check the <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/tutorials/basics/tutorial-universal-counter/" target="_blank">Universal Counter tutorial</a> which includes a React app with an interface for interacting with the contract.
 - `getUEAForOrigin` can return a deterministic UEA address even if the account is not yet deployed (`isDeployed == false`).
 
 ## Sample responses
@@ -30,7 +30,7 @@ In this step, we provide a minimal Solidity contract `UEAFactoryDemo.sol` that d
 
 ## References
 
-- Tutorial example: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/tutorials/tutorial-universal-counter/" target="_blank">Universal Counter (contract calling getOriginForUEA)</a>
+- Tutorial example: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/tutorials/basics/tutorial-universal-counter/" target="_blank">Universal Counter (contract calling getOriginForUEA)</a>
 - Concepts: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/important-concepts/#account-types-on-push-chain" target="_blank">Account types on Push Chain</a>
 - Contract Helpers: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/build/contract-helpers/#ueafactory--getoriginforuea" target="_blank">UEAFactory → getOriginForUEA</a>
 - Contract Helpers: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/build/contract-helpers/#ueafactory--getueafororigin" target="_blank">UEAFactory → getUEAForOrigin</a>
