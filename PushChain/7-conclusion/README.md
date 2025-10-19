@@ -9,6 +9,7 @@ This section wraps up what you built and learned across Push Chain and points yo
 
 ## Recommended next steps and resources
 
+- **UI Kit SDK (recommended for UIs)** — If you're building a UI, use this SDK to add Push Chain quickly and enable react hooks, and prebuilt connect modals. Start with <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/ui-kit/integrate-push-universal-wallet/" target="_blank">Integrate Push Universal Wallet</a>.
 - **Intro to Push Chain** — key concepts and motivations: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/" target="_blank">Docs Home</a>
 - **Important Concepts** — account types, universal model: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/important-concepts/" target="_blank">Important Concepts</a>
 - **Tutorials** — end‑to‑end guides:
@@ -21,4 +22,3 @@ This section wraps up what you built and learned across Push Chain and points yo
   - Sign Universal Message: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/build/sign-universal-message/" target="_blank">Guide</a>
   - Reading Blockchain State: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/build/reading-blockchain-state/" target="_blank">Guide</a>
   - Contract Helpers: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/build/contract-helpers/" target="_blank">Guide</a>
-- **UI Kit SDK** — React Hooks and components to easily add Push Chain to your dApp: <a href="https://pushchain.github.io/push-chain-website/pr-preview/pr-1067/docs/chain/ui-kit/" target="_blank">UI Kit</a>
