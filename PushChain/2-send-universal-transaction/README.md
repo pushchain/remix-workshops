@@ -10,12 +10,12 @@ Learn how to execute Universal Transactions with PushChain. This tutorial guides
 ## Simple Counter Contract
 
 The script interacts with the Simple Counter contract deployed at:
-<a href="https://donut.push.network/address/0x9F95857e43d25Bb9DaFc6376055eFf63bC0887C1?tab=index">`0x9F95857e43d25Bb9DaFc6376055eFf63bC0887C1`</a>
+<a href="https://donut.push.network/address/0x5FbDB2315678afecb367f032d93F642f64180aa3?tab=index">`0x5FbDB2315678afecb367f032d93F642f64180aa3`</a>
 
 ## How it works
 
 1. **Wallet Creation**: Creates a random wallet on Sepolia using `ethers.Wallet.createRandom()`
-2. **Provider Setup**: Connects to Push Chain Donut Testnet RPC endpoint
+2. **Provider Setup**: Connects to Ethereum Sepolia RPC endpoint
 3. **Universal Signer Conversion**: Uses `PushChain.utils.signer.toUniversal()` to create Universal Signer from the wallet
 4. **Client Initialization**: Initializes Push Chain client with the Universal Signer
 5. **Transaction Preparation**: Encodes the `increment()` function call using the Simple Counter ABI
@@ -29,7 +29,6 @@ The script interacts with the Simple Counter contract deployed at:
 The script includes a minimal ABI for the Simple Counter contract:
 
 - `increment()`: Function to increment the counter
-- `reset()`: Function to reset the counter
 - `countPC()`: View function to read the counter value
 
 ### Transaction Parameters
