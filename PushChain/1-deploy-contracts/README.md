@@ -4,7 +4,7 @@ Learn more in the official docs: <a href="https://pushchain.github.io/push-chain
 
 ## Why deploy on Push Chain?
 
-- **Zero code changes (EVM compatible)**: Push Chain is fully EVM-compatible, so you don’t need to modify your contracts to deploy here.
+- **Zero code changes (EVM compatible)**: Push Chain is fully EVM-compatible, so you don’t need to modify your contracts to deploy on it.
 - **Instant multi-chain users, no bridges**: By deploying on Push Chain, you instantly reach users from all chains that Push Chain is connected to—without changing your on-chain code. Users can interact from Ethereum, Base, Arbitrum, Optimism, Solana, and other supported chains.
 - **Universal wallet and fee abstraction**: Users can connect with popular wallets (MetaMask, Phantom, etc.) and even pay fees in their native token. No need for users to hold a special gas token.
 - **Origin-aware transactions (True Universal L1)**: Push Chain natively links each transaction to its origin chain and originating address, so your contracts and apps can know where a call came from.
