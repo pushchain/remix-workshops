@@ -1,7 +1,7 @@
 import { PushChain } from '@pushchain/core';
 import { ethers } from 'ethers';
 
-const RPC_PUSH = 'https://ethereum-sepolia-rpc.publicnode.com';
+const RPC_SEPOLIA = 'https://ethereum-sepolia-rpc.publicnode.com';
 
 async function main() {
   console.log('🚀 Initializing Universal Transaction Example');
@@ -38,14 +38,14 @@ async function main() {
   ];
 
   // Contract address for the Simple Counter
-  const SIMPLE_COUNTER_CONTRACT_ADDRESS = '0x9F95857e43d25Bb9DaFc6376055eFf63bC0887C1';
+  const SIMPLE_COUNTER_CONTRACT_ADDRESS = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
 
   // 1) Create a wallet (in production, you'd use your own wallet)
   const wallet = ethers.Wallet.createRandom();
   console.log(`📝 Created wallet: ${wallet.address}`);
 
   // 2) Set up provider and connect wallet
-  const provider = new ethers.JsonRpcProvider(RPC_PUSH);
+  const provider = new ethers.JsonRpcProvider(RPC_SEPOLIA);
   const signer = wallet.connect(provider);
 
   // 3) Convert to Universal Signer
@@ -56,6 +56,7 @@ async function main() {
   console.log('🔗 Initializing Push Chain Client...');
   const pushChainClient = await PushChain.initialize(universalSigner, {
     network: PushChain.CONSTANTS.PUSH_NETWORK.TESTNET,
+    progressHook: (progress) => console.log(progress),
   });
 
   // 5) Prepare transaction parameters
